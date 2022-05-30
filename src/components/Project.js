@@ -4,7 +4,7 @@ import project02 from '../Image/project02.png'
 import project03 from '../Image/project03.png'
 const Project = () => {
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto' id='project'>
             <h1 className='text-3xl text-center text-gray-300 my-10'>My Project</h1>
 
             <div className='w-11/12 mx-auto'>

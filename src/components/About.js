@@ -2,7 +2,7 @@ import React from 'react';
 import profilePic from '../Image/profile-pic2.png'
 const About = () => {
     return (
-        <div>
+        <div id='about'>
 
             <div className="card rounded-none lg:card-side bg-black shadow-xl">
                 <figure className='w-2/6'><img src={profilePic} alt="Album" /></figure>

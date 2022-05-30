@@ -7,10 +7,12 @@ import Skill from './components/Skill';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
+import Menubar from './components/Menubar';
 
 function App() {
   return (
     <div className="App bg-black">
+      <Menubar/>
       <ToastContainer />
       <Home />
       <About />

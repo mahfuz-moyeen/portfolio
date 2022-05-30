@@ -5,7 +5,7 @@ import cv from '../file/Mahfuz_Zahan_Moyeen.pdf'
 
 const Home = () => {
     return (
-        <div className="hero min-h-screen bg-neutral" style={{ background: `url(${portfolio})`, backgroundSize: 'cover' }}>
+        <div id='home' className="hero min-h-screen bg-neutral" style={{ background: `url(${portfolio})`, backgroundSize: 'cover' }}>
             <div className="hero-content">
                 <div className="max-w-lg">
                     <h1 className="text-5xl font-bold text-gray-200">

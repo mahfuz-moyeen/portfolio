@@ -3,7 +3,7 @@ import { Progress } from 'react-daisyui';
 
 const Skill = () => {
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto' id='skill'>
             <h1 className='text-3xl text-center text-gray-300 my-10'>My Skills</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 <div className="card w-full mx-auto bg-accent shadow-xl">
